@@ -1,0 +1,6 @@
+In CMD go to: C:\\Users\\k7rgrdls\\AppData\\Roaming\\Python\\Python36\\Scripts
+
+pyinstaller --onefile "D:\documents\Python\Template_Generator_3.7\GUI.spec"
+
+Program will create an executable at C:\Users\k7rgrdls\AppData\Roaming\Python\Python36\Scripts\dist
+
