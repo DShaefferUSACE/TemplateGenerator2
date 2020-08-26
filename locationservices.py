@@ -100,7 +100,7 @@ class LocationServices:
     def getProjectAreaInfo(self, latitude, longitude):
         i=0
         try:
-            params4 = urlencode([ ('latlng', str(latitude) + "," + str(longitude)), ('sensor', 'false'), ('key', 'AIzaSyD9EwK0R6oI4n4iZdVHb_YpNer845tXQ-M') ])
+            params4 = urlencode([ ('latlng', str(latitude) + "," + str(longitude)), ('sensor', 'false'), ('key', 'ENTERKEYHERE') ])
             r4 = urlopen("https://maps.googleapis.com/maps/api/geocode/json?" + params4)
             locationdata = json.loads(r4.read())
             while locationdata['results'][0]['address_components'][i] is not None:
